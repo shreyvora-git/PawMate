@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "rating": "4.9",
+    "location": "Chembur",
+    "experience": "5+ years",
+    "service": "Dog Walker",
+    "price": "₹300/session",
+    "tags": ["LARGE DOGS", "CPR CERTIFIED"],
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Priya Mehta",
+    "rating": "5.0",
+    "location": "Powai",
+    "experience": "4+ years",
+    "service": "Pet Sitter",
+    "price": "₹500/day",
+    "tags": ["CATS & DOGS", "MEDICATION"],
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Aarav Patel",
+    "rating": "4.8",
+    "location": "Bandra",
+    "experience": "3+ years",
+    "service": "Trainer & Walker",
+    "price": "₹800/session",
+    "tags": ["PUPPY TRAINING", "BEHAVIOR"],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Ananya Deshmukh",
+    "rating": "4.9",
+    "location": "Juhu",
+    "experience": "6+ years",
+    "service": "Cat & Dog Sitter",
+    "price": "₹650/day",
+    "tags": ["SENIOR PETS", "FIRST AID"],
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Rohan Verma",
+    "rating": "4.9",
+    "location": "Andheri West",
+    "experience": "4+ years",
+    "service": "Dog Walker & Sitter",
+    "price": "₹350/session",
+    "tags": ["ACTIVE RUNS", "AGILITY"],
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Kulkarni",
+    "rating": "5.0",
+    "location": "Dadar",
+    "experience": "7+ years",
+    "service": "Feline Specialist",
+    "price": "₹600/day",
+    "tags": ["KITTEN CARE", "POST-OP CARE"],
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Vikram Singh",
+    "rating": "4.8",
+    "location": "Colaba",
+    "experience": "5+ years",
+    "service": "Overnight Sitter",
+    "price": "₹1,100/night",
+    "tags": ["HOUSE SITTING", "24/7 CARE"],
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Kavita Rao",
+    "rating": "4.9",
+    "location": "Thane West",
+    "experience": "3+ years",
+    "service": "Groomer & Walker",
+    "price": "₹450/session",
+    "tags": ["SPA WASH", "LEASH MANNERS"],
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80"
+  }
+]

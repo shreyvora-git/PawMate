@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root, [data-theme="light"] {
+  --paw-bg: #faf9f6;
+  --paw-surface: #ffffff;
+  --paw-surface-secondary: #f5f3ec;
+  --paw-green: #1a4331;
+  --paw-green-dark: #123023;
+  --paw-green-light: #d6ebd9;
+  --paw-terracotta: #ff5733;
+  --paw-terracotta-light: #ffefe8;
+  --paw-olive: #e2e6d9;
+  --paw-text-primary: #111827;
+  --paw-text-secondary: #4b5563;
+  --paw-text-muted: #6b7280;
+  --paw-card-border: #e8e5de;
+  --paw-input-bg: #fcfbf9;
+  --paw-input-border: #e5e1d8;
+  --paw-shadow-soft: 0 12px 32px rgba(26, 67, 49, 0.06);
+  --paw-shadow-hover: 0 20px 40px rgba(26, 67, 49, 0.12);
+  --font-apple-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+[data-theme="dark"], .dark-theme {
+  --paw-bg: #0e1411;
+  --paw-surface: #16201b;
+  --paw-surface-secondary: #1d2a23;
+  --paw-green: #2e7d56;
+  --paw-green-dark: #1f563b;
+  --paw-green-light: rgba(52, 211, 153, 0.18);
+  --paw-terracotta: #fb7185;
+  --paw-terracotta-light: rgba(251, 113, 133, 0.15);
+  --paw-olive: #2a3d33;
+  --paw-text-primary: #f9fafb;
+  --paw-text-secondary: #d1d5db;
+  --paw-text-muted: #9ca3af;
+  --paw-card-border: rgba(255, 255, 255, 0.1);
+  --paw-input-bg: #121a15;
+  --paw-input-border: rgba(255, 255, 255, 0.16);
+  --paw-shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.4);
+  --paw-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  transition: background-color 0.22s ease, border-color 0.22s ease, color 0.15s ease, box-shadow 0.22s ease;
+}
+
+body {
+  margin: 0;
+  background-color: var(--paw-bg);
+  color: var(--paw-text-primary);
+  font-family: var(--font-apple-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-apple-sans);
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
 }
